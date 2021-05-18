@@ -1,0 +1,24 @@
+﻿                Dictionary <String,  HashSet < String >> Ce = new Dictionary<string, HashSet<string>>();
+                Dictionary<String, HashSet<String>> Ca = new Dictionary<string, HashSet<string>>();
+                String a, b, c, d, ee, f, g, h;
+                a = "A";b = "B";c = "C"; d = "D"; ee = "E"; f = "F";g = "G";h = "H";
+                Ce.Add(a, new HashSet<string> { d });
+                Ce.Add(b, new HashSet<string> { c, ee });
+                Ce.Add(c, new HashSet<string> { a });
+                Ce.Add(d, new HashSet<string> { b, c });
+                Ce.Add(ee, new HashSet<string> { b, c, d, f });
+                Ce.Add(f, new HashSet<string> { c, h, });
+                Ce.Add(g, new HashSet<string> { a, c });
+                Ce.Add(h, new HashSet<string> { a });
+
+                Ca.Add(a, new HashSet<string> { c,g,h });
+                Ca.Add(b, new HashSet<string> { ee,d });
+                Ca.Add(c, new HashSet<string> { b,ee,f,g,d });
+                Ca.Add(d, new HashSet<string> { a,ee });
+                Ca.Add(ee, new HashSet<string> { b});
+                Ca.Add(f, new HashSet<string> { ee});
+                Ca.Add(g, new HashSet<string> ());
+                Ca.Add(h, new HashSet<string> { f });
+
+                HitMaker test = new HitMaker(Ce, Ca);
+                test.findHubsAndAuthsUsingHITS();

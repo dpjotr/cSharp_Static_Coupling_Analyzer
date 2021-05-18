@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAnalyser", "MyAnalyser\MyAnalyser.csproj", "{D3AA8569-31E1-4B14-81D4-377D837F47D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F1EFB8A-3E33-4485-A921-7A16DDCE8FD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3AA8569-31E1-4B14-81D4-377D837F47D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AA8569-31E1-4B14-81D4-377D837F47D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AA8569-31E1-4B14-81D4-377D837F47D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AA8569-31E1-4B14-81D4-377D837F47D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E32D671C-D1BF-410B-AC12-A25324AF0412}
+	EndGlobalSection
+EndGlobal
